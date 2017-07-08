@@ -1,0 +1,57 @@
+body{
+  max-width:960px;
+background-color:#f0ead6;
+
+}
+.get-article{
+font-family: 'Playfair Display SC', serif;
+ width:100%;
+  text-align:center;
+  margin:20px auto;
+}
+.search-api{
+  text-align:center;
+  width:100%;
+ margin:10px auto;
+}
+a.random-link{
+  text-decoration:none;
+  color: black;
+  font-size:120%;
+}
+.search-results{
+  max-width:960px;
+  padding-top:2%;
+  height:640px;
+  font-family: 'Playfair Display SC', serif;
+  display:none;
+  margin: 0 auto;
+  text-align:left;
+  overflow:scroll;
+}
+.message{
+  text-align:center;
+}
+.clearMe:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+input[type="text"]{
+  font-family: 'Playfair Display SC', serif;
+}
+.lead-number{
+  font-size:2.4em;
+}
+.the-layout{
+  text-align:left;
+ line-height:2em;
+  color:black;
+}
+a:link{
+  text-decoration:none;
+}
+a:hover{
+  text-decoration:underline;
+  color:black;
+}
